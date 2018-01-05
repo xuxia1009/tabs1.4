@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+  line-height: 100px; }
+
+.tabbable {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto; }
+
+ul {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  ul li {
+    flex: 1;
+    line-height: 30px;
+    text-align: center; }
+
+.tab-content {
+  width: 100%;
+  height: 100px;
+  position: relative; }
+  .tab-content .tab-pane {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff; }
+    .tab-content .tab-pane.active {
+      z-index: 666; }
+
+/*# sourceMappingURL=style.css.map */

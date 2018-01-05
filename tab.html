@@ -1,0 +1,12 @@
+<div class="tabbable">
+    <ul class="nav">
+        <li ng-repeat="pane in panes" class="li">
+            <a href="javascript:;" ng-click="select($index)">{{pane}}</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        {{name}}
+        <div class="tab-pane active">This is the content of the first tab.</div>
+        <div class="tab-pane">This is the content of the second tab.</div>
+    </div>
+</div>
